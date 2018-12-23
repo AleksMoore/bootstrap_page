@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>bootstrap page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="info" content="">
+<meta name="keywords" content="">
+
+<!-- css -->
+<link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+<link href="./css/normalize.css" rel="stylesheet" type="text/css">
+<link href="./css/fonts.css" rel="stylesheet" type="text/css">
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+<!-- //css -->
+
+<!-- js -->
+<script type="text/javascript" src="./js/script.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/jquery.fancybox.min.js"></script>
+<!-- //js -->
+
+<!-- favicon -->
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+<link rel="icon" href="./favicon.ico" type="image/x-icon">
+<!-- //favicon -->
+
+</head>
+<body>
+
+<!-- Popup-form -->
+	<div style="display: none;" class="popup-form" id="popup-form">
+		<div class="form-top-inner">
+			<form action="" method="post">
+				<h3>Записаться<br><span>на практическую лекцию</span></h3>
+					<div class="form-row">
+						<input type="text" name="name" class="form-field" placeholder="Введите ваше имя" required>
+					</div>
+					<div class="form-row">
+						<input type="tel" name="phone" class="form-field" placeholder="Введите ваш телефон" required>
+					</div>
+					<div class="form-row">
+						<input type="email" name="email" class="form-field" placeholder="Введите ваш e-mail" required>
+					</div>
+					<div class="form-radio">
+						<div class="rad">
+							<input id="pop-radio1" name="radio" value="Живое участие" checked="" type="radio">
+							<span></span> 
+							<label for="pop-radio1">Живое <br>участие</label>
+						</div>
+						<div class="rad">
+							<input id="pop-radio2" name="radio" value="Участие онлайн" type="radio">
+							<span></span> 
+							<label for="pop-radio2">Участие <br>онлайн</label>
+						</div>
+					</div>
+					<div class="form-checkbox">
+						<input id="pop-chek" name="" value="" checked="checked" type="checkbox">
+						<span></span> 
+						<label for="pop-chek">Согласен получать новости о ЗВЕЗДНЫХ лекциях и курсах</label>
+					</div>
+					<div class="form-button">
+						<button type="submit">Отправить Заявку</button>
+					</div>
+					<div class="form-bottom">Количество мест ограничено: 200</div>
+			</form>
+		</div>
+	</div>
+<!-- //Popup-form -->
+
+<!-- One-block -->
+	<div class="one-block">
+		<div class="container">
+			<div class="header">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="logo">
+							<img src="../images/logo.png" alt="Synergy Lectorium">
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="contact">
+							<div class="phone"><a href="tel:88001001746">8-800-100-17-46</a></div>
+							<div class="mail"><a href="mailto:Lectorium@synergy.ru">Lectorium@synergy.ru</a></div>
+						</div>
+						<div class="address">
+							Семеновская<br><span>Москва, Измайловский Вал, дом 2, корпус 1</span>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+			<div class="block-inner">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="date">
+							<div class="number">10</div>
+							<div class="month">ноября</div>
+							<div class="time">в 19:00</div>
+							Бесплатная лекция<br>и онлайн-трансляция
+						</div>
+						<h1>Бхригу <br>йога<br><span>Вдохновение <br>на перемены</span></h1>
+						<a data-fancybox href="https://www.youtube.com/embed/Wjrrgrvq1ew" class="play"></a>
+					</div>
+
+					<div class="col-md-6 col-sm-6 mob-form">
+						<div class="form">
+							<div class="form-top">
+								<div class="form-top-inner">
+									<form action="" method="post">
+										<h3>Записаться<br><span>на практическую лекцию</span></h3>
+										<div class="form-row">
+											<input type="text" name="name" class="form-field" placeholder="Введите ваше имя" required>
+										</div>
+										<div class="form-row">
+											<input type="tel" name="phone" class="form-field" placeholder="Введите ваш телефон" required>
+										</div>
+										<div class="form-row">
+											<input type="email" name="email" class="form-field" placeholder="Введите ваш e-mail" required>
+										</div>
+										<div class="form-radio">
+											<div class="rad">
+												<input id="radio1" name="radio" value="Живое участие" checked="" type="radio">
+												<span></span> 
+												<label for="radio1">Живое <br>участие</label>
+											</div>
+											<div class="rad">
+												<input id="radio2" name="radio" value="Участие онлайн" type="radio">
+												<span></span> 
+												<label for="radio2">Участие <br>онлайн</label>
+											</div>
+										</div>
+										<div class="form-checkbox">
+											<input id="chek" name="" value="" checked="checked" type="checkbox">
+											<span></span> 
+											<label for="chek">Согласен получать новости о ЗВЕЗДНЫХ лекциях и курсах</label>
+										</div>
+										<div class="form-button">
+											<button type="submit">Отправить Заявку</button>
+										</div>
+										<div class="form-bottom">Количество мест ограничено: 200</div>
+									</form>
+								</div>
+							</div>
+							<div class="social">
+								рекомендовать друзьям
+								<div class="social-inner">
+									<div class="social-items">
+									<a href=""><img src="./images/social/vk.png"></a>
+									<a href=""><img src="./images/social/facebook.png"></a>
+									<a href=""><img src="./images/social/google.png"></a>
+									<a href=""><img src="./images/social/twitter.png"></a>
+									<a href=""><img src="./images/social/ok.png"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //One-block -->
+
+<!-- Two-block -->
+	<div class="two-block">
+		<div class="container">
+
+			<div class="row flex-container">
+				<div class="col-xs-12 col-sm-6 col-md-8 block">
+					<div class="flex-block">
+						<h2>Что вы узнаете <br>на лекции?</h2>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 hidden-xs block right">
+					<div class="flex-block">
+					</div>	
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block left">
+					<div class="flex-block">
+						<h3>01</h3>Что такое Бхригу йога, и как она поможет мне создать жизнь моей мечты?
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block">
+					<div class="flex-block">
+						<h3>02</h3>5 техник, вдохновляющие на перемены, от вице-президента Федерации Йоги Индии
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block">	
+					<div class="flex-block">
+						<h3>03</h3>Почему медитация — это путь к вдохновению, путешествие к новым горизонтам
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block">	
+					<div class="flex-block">
+						<h3>04</h3>Методы Бхригу йоги как особый инструмент внутренней работы над телом и умом
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block">
+					<div class="flex-block">
+						<h3>05</h3>Особые методы концентрации и релаксации
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 block">
+					<div class="flex-block">
+						<h3>06</h3>Причины <br>потери <br>вдохновения
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-8 block">
+					<div class="flex-block-bottom">
+						<a data-fancybox data-src="#popup-form" href="javascript:;">Принять участие</a>
+						<span>Количество мест <br>ограничено: 200</span>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 hidden-xs block">
+					<div class="flex-block-bottom">
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- //Two-block -->
+
+<!-- Three-block -->
+	<div class="three-block">
+		<div class="container-fluid">
+			<div class="row flex-container">
+				<div class="col-sm-6 hidden-xs bg-three-1"></div>
+				<div class="col-sm-6 bg-three-2">
+					<div class="content">
+						<h2>Лекция для вас, <br>если вы:</h2>
+						<ul>
+							<li>Увлекаетесь <br>йогой</li>
+							<li>Интересуетесь <br>культурно-философским <br>наследием Индии</li>
+							<li>Хотите узнать новые <br>принципы работы <br>с телом и умом</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+<!-- //Three-block -->
+
+<!-- Four-block -->
+	<div class="four-block">
+		<div class="container">
+			<div class="row flex-container">
+				<div class="col-md-3 four-left">
+					<img src="../images/img_four.png">
+				</div>
+				<div class="col-md-9 four-right">
+					<h2>
+						Трехдневный интенсив
+					</h2>
+					<h3>Лечение и профилактика психосоматических <br>и эндокринных заболеваний методами Бхригу йоги</h3>
+					<p>Вы познакомитесь с особенностями методов и получите пошаговый <br>алгоритм достижения физического и психического благополучия.</p>
+					<div class="times">
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="date">
+									<div class="number">11</div>
+									<div class="month">ноября</div>
+									<div class="time">19:00-21:00</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="date">
+									<div class="number">12</div>
+									<div class="month">ноября</div>
+									<div class="time">11:00-17:30</div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="date">
+									<div class="number">13</div>
+									<div class="month">ноября</div>
+									<div class="time">11:00-17:30</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="more">
+						<div class="row">
+							<div class="col-sm-4 button">
+								<a data-fancybox data-src="#popup-form" href="javascript:;">Узнать больше</a>
+							</div>
+							<div class="col-sm-6 info">
+								Вы можете приобрести билет на 1, 2 или 3 дня<br>
+								Запись и дополнительная информация<br>
+								по телефону <strong>+7 999 768 36 38</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>	
+<!-- //Four-block -->
+</body>
+</html>
